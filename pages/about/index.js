@@ -23,7 +23,7 @@ export default function About () {
   return (
     <div className='flex flex-col justify-center'>
       <NextSeo
-        title='Kelli Landry - About'
+        title='- About'
         description=''
         canonical='h'
       />

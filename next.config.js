@@ -2,9 +2,9 @@ const path = require('path')
 module.exports = {
   reactStrictMode: true,
   env: {
-    customKey: 'https://api-us-east-1.graphcms.com/v2/ckqegbt2ezupe01xtcbr80b9g/master'
+    customKey: 'ht'
   },
   images: {
-    domains: ['media.graphassets.com']
+    domains: ['media.g']
   }
 }

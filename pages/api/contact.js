@@ -4,14 +4,14 @@ export default function (req, res) {
     port: 465,
     host: 'smtp.gmail.com',
     auth: {
-      user: 'kellilandrydeveloper',
+      user: '',
       pass: process.env.NEXT_PUBLIC_SECRET_PASSWORD
     },
     secure: true
   })
   const mailData = {
-    from: 'kellilandrydeveloper@gmail.com',
-    to: 'landry.kel@gmail.com',
+    from: '',
+    to: '',
     subject: `Message from ${req.body.name} @ ${req.body.email}`,
     text: req.body.message
   }

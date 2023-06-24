@@ -5,9 +5,9 @@ export default function Home () {
   return (
     <div>
       <NextSeo
-        title='Kelli Landry - Home'
-        description='Kelli Landry, Web Developer'
-        canonical='http://www.kellilandry.dev'
+        title=''
+        description=''
+        canonical=''
         additionalLinkTags={[
           {
             rel: 'icon',

@@ -11,8 +11,8 @@ export default function MainContent () {
           {/* <div>
             <Image
               priority
-              src='/Kelli_Landry_Icon.svg'
-              height={200}
+              src='/.svg'
+              height={200}y
               width={200}
               alt="Kelli Landry"
             />
@@ -21,16 +21,15 @@ export default function MainContent () {
       </header>
       <div className='w-full flex justify-center p-7 profilePicBox'>
         <Image 
-          src='/New_Mexico_Overlay.png' 
-          alt='Kelli Landry Main' 
+          src='/' 
+          alt='' 
           height='600'
           width='500'
           objectFit='cover' 
           className='rounded-lg'
         />
       </div>
-      <p className='text-lg text-center pb-5 lowercase dark:text-indigo-100'>
-        social worker 👩🏻‍💼 turned software developer 👩🏻‍💻 who wants to learn it all ✨
+      <p className='text-lg text-center pb-5 lowercase dark:tesxt-indigo-100'>
       </p>
     </section>
   )

@@ -5,9 +5,9 @@ export default function Contact () {
   return (
     <div className='justify-center flex flex-row'>
       <NextSeo
-        title='Kelli Landry - Contact'
-        description='Contact page for Kelli Landry with a form provided.'
-        canonical='http://kellilandry.dev/contact'
+        title=''
+        description=''
+        canonical=''
       />
       <div className='flex flex-row p-4'>
         <section className=''>
